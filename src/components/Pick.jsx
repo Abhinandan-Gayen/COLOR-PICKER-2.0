@@ -49,7 +49,7 @@ const Pick = ({sendData1}) => {
     <div className=" h-[48vh] md:h-[53vh] lg:h-[53vh] w-[384px] md:w-[550px] mx-auto bg-green-00">
       <h2 className="text-[#fff] text-2xl font-bold p-2">Color Picker</h2>
        <div className="h-fit w-[100%y] flex md:flex lg:flex gap-2 md:w-[580px] lg:w-[580px] rounded-2xl px-2 py-2">
-        <div style={{background:color}} className="h-[320px] md:h-[43vh] lg:h-[43vh] w-[200px] md:w-[230px] rounded-2xl border-white border-2"></div>
+        <div style={{background:color}} className="h-[320px] md:h-[40vh] lg:h-[40vh] w-[200px] md:w-[230px] rounded-2xl border-white border-2"></div>
         <div ref={pickref} className="scale-x-[100%] scale-y-[100%] md:scale-y-[90%] md:scale-x-[100%] lg:scale-y-[90%] lg:scale-x-[100%]  origin-top"></div>
       </div>
     </div>
